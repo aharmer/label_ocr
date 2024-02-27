@@ -1,0 +1,14 @@
+names:
+- hand_label
+- mixed_label
+- typed_label
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: detect_pin_labels
+  url: https://universe.roboflow.com/labelreader/detect_pin_labels/dataset/2
+  version: 2
+  workspace: labelreader
+test: C:/Users/harmera/Dropbox/data/label_ocr/detect_pin_labels-2/test/images
+train: C:/Users/harmera/Dropbox/data/label_ocr/detect_pin_labels-2/train/images
+val: C:/Users/harmera/Dropbox/data/label_ocr/detect_pin_labels-2/valid/images
