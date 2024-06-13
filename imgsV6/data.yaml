@@ -1,0 +1,13 @@
+train: C:/Users/harmera/Dropbox/data/label_ocr/imgsV6/train/images
+val: C:/Users/harmera/Dropbox/data/label_ocr/imgsV6/valid/images
+test: C:/Users/harmera/Dropbox/data/label_ocr/imgsV6/test/images
+
+nc: 3
+names: ['hand_label', 'mixed_label', 'typed_label']
+
+roboflow:
+  workspace: labelreader
+  project: detect_pin_labels
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/labelreader/detect_pin_labels/dataset/6
